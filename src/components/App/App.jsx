@@ -33,7 +33,7 @@ function App() {
       <div>
         <Nav />
         <Routes>
-          {/* Redirect from root to home */}
+          {/* Redirect to home */}
           <Route path="/" element={<Navigate to="/home" />} />
 
           {/* Public routes */}
